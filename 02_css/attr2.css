@@ -81,3 +81,80 @@
 .em{
     font-size: 2em;
 }
+
+.square{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
+.border{background-color: beige;
+/* 굵기 모양 색낄} */
+    /* border: 10px solid red;*/
+    border-color: red orange green blue;
+    border-style: dotted;
+    border-width: 30px 20px 20px 30px; 
+    border-right-width: 5px;}  
+
+.rouded{
+    background-color: yellowgreen;
+    /* border-radius: 50px;*/
+    border-radius: 5px 2ch 20px 40px;
+    border-radius: 5px 40px;
+}
+
+.aaddc{
+    background-color: pink;
+    border-radius: 5px;
+    border-radius: 3px;
+}
+
+
+
+.box-sizing{
+    padding: 20px;
+    border: 15px solid red;
+    background-color: orange;
+}
+
+.content-box{
+    box-sizing: content-box;
+}
+
+.border-box{
+    box-sizing: border-box;
+}
+
+.d-none {
+    display: none; 
+    background-color: red;
+}
+.invisible {
+  visibility: hidden; 
+  background-color: orangered;
+}
+
+.opacity-0 {
+  opacity: 0.5; 
+  background-color: tomato;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.overflow-auto{
+    overflow: auto;
+}
+
+.overflow-scroll{
+    overflow: scroll;
+}
+
+.overflow-visible{
+    overflow: visible;
+}
+
+
